@@ -66,3 +66,16 @@ if !isRaining{
 if (isRaining || isSnowing) && temperature < 32 {
     print("Put some gloves on")
 }
+
+// switch statement
+let airportCodes = ["DIA", "BZM", "LHR", "LGA", "HKG"]
+
+for airportCode in airportCodes {
+    switch airportCode {
+    case "LGA": print("New York")
+    case "DIA": print("Denver intl airport")
+    case "BZM": print("Bozemam")
+    default: print("IDK what airport that's in")
+    }
+}
+
