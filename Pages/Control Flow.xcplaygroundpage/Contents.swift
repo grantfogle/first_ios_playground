@@ -79,3 +79,14 @@ for airportCode in airportCodes {
     }
 }
 
+import GameKit
+
+let randomTemperature = GKRandomSource.sharedRandom().nextInt(upperBound: 150)
+
+switch randomTemperature {
+case 0..<32: print("You cold")
+case 32..<45: print("It's chilly for ya willy")
+case 45..<70: print("It's not bad")
+case 70...100: print("it's toasty")
+default: print("Wayyy too hot")
+}
