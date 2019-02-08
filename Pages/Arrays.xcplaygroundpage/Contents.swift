@@ -21,6 +21,7 @@ todo.remove(at: 2)
 todo.count
 todo[todo.count-1]
 
+//
 //Dictionaries
 
 /*
@@ -53,3 +54,5 @@ airportCodes
 airportCodes["SLC"] = nil
 airportCodes.removeValue(forKey: "SYD")
 airportCodes
+
+let denverAirport = airportCodes["DIA"]
