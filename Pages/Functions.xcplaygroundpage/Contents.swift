@@ -13,3 +13,12 @@ area(length: 10, width: 8)
 func someFunction() -> Void {
     
 }
+
+
+// prepositional phrase
+// two names, outside name and parameter name
+func remove(havingValue value: String) {
+    print(value)
+}
+
+remove(havingValue: "A")
