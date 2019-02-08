@@ -12,3 +12,31 @@ for task in todo {
 for number in 1...10 {
     print(number)
 }
+//while loop
+var x = 0;
+
+while x < 20 {
+    print(x)
+    x += 1
+}
+
+var index = 0
+//while loop like a for loop
+while index < todo.count {
+    print(todo[index])
+    index += 1
+    
+}
+
+//repeat keyword
+
+var counter = 0
+while counter < 1 {
+    print("Yadadada")
+    counter += 1
+}
+
+repeat {
+    print("I'm inside repeat loop")
+    counter += 1
+} while counter < 1
