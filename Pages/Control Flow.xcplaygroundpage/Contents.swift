@@ -40,3 +40,29 @@ repeat {
     print("I'm inside repeat loop")
     counter += 1
 } while counter < 1
+
+var temperature = 1
+
+if temperature < 12 {
+    print("go get a jacket")
+} else if temperature < 18 {
+    print("wear a light sweater")
+} else {
+    print("Go naked")
+}
+
+//or and not statments
+var isRaining = true
+var isSnowing = true
+
+if isRaining || isSnowing {
+    print("Get out those boots")
+}
+
+if !isRaining{
+    print("the snow is out")
+}
+
+if (isRaining || isSnowing) && temperature < 32 {
+    print("Put some gloves on")
+}
