@@ -43,3 +43,27 @@ coordinatePoint.x
 coordinatePoint.points()
 
 //let coodinatePoint = Point(x: <#T##Int#>, y: <#T##Int#>)
+
+class Enemy {
+    var life: Int = 2
+    let position: Point
+    
+    init(x: Int, y: Int){
+        self.position = Point(x: x, y: y)
+    }
+    
+    func decreaseLife(by factor: Int){
+        life -= factor
+    }
+
+}
+
+class Tower {
+    let position: Point
+    var range: Int = 1
+    var strength: Int = 1
+    
+    init(x: Int, y: Int){
+        self.position = Point(x:x, y:y)
+    }
+}
