@@ -10,6 +10,11 @@ struct Point {
     let x: Int
     let y: Int
     
+    init(x: Int, y: Int) {
+        self.x = x
+        self.y = y
+    }
+    
     /// Returns the surrounding in range of
     /// the current one
     func points(inRange range:Int = 1) -> [Point]{
@@ -34,4 +39,7 @@ struct Point {
 
 //instance of a struct
 let coordinatePoint = Point(x: 0 , y: 0)
+coordinatePoint.x
 coordinatePoint.points()
+
+//let coodinatePoint = Point(x: <#T##Int#>, y: <#T##Int#>)
